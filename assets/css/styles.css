@@ -44,8 +44,6 @@ p.lead {
 }
 .img-href {
     margin: auto 0;
-    display:flex;
-    justify-content:space-between;
 }
 .img-href:hover{
     text-decoration:none;
