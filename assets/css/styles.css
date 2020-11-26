@@ -1,0 +1,61 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.txt-space-1hfpx {
+    letter-spacing: 0.0938rem;
+}
+.upper {
+    text-transform: uppercase;
+}
+.nav-link {
+    margin:5px;
+    padding:5px;
+}
+p.lead {
+    font-size:1rem;
+}
+.nav-item:first-of-type ::after,
+.nav-item:nth-of-type(2) ::after{
+    content: ' ';
+    margin-left:20px;
+    font-weight:400 !important;
+    color: rgba(255,255,255,.5) !important;
+}
+.active-project {
+    border: 5px solid gray;
+    padding:10px;
+    width:80%;
+}
+@media screen and (min-width:992px) {
+    .active-project {
+        height:560px;
+    }
+}
+.active-project.mysavei {
+    border-color: #A2D039;
+}
+.active-project.mysavei p.lead {
+    background-color: rgba(162,208,57,0.26);
+    padding:10px;
+}
+.active-project.outerbelt p.lead {
+    background-color: rgba(112,112,112,0.26);
+    padding:10px;
+}
+.img-href {
+    margin: auto 0;
+    display:flex;
+    justify-content:space-between;
+}
+.img-href:hover{
+    text-decoration:none;
+    opacity:0.85;
+}
+.disabled {
+    color:#707070;
+}
+.disabled:hover {
+    cursor:default;
+    text-decoration:none;
+    color:#707070;
+}
