@@ -8,8 +8,8 @@ body {
     text-transform: uppercase;
 }
 .nav-link {
-    margin:5px;
-    padding:5px;
+    margin:0.313rem;
+    padding:0.313rem;
 }
 p.lead {
     font-size:1rem;
@@ -17,30 +17,57 @@ p.lead {
 .nav-item:first-of-type ::after,
 .nav-item:nth-of-type(2) ::after{
     content: ' ';
-    margin-left:20px;
+    margin-left:1.25rem;
     font-weight:400 !important;
     color: rgba(255,255,255,.5) !important;
 }
 .active-project {
-    border: 5px solid gray;
-    padding:10px;
+    border: 0.313rem solid gray;
+    padding:0.625rem;
     width:80%;
 }
 @media screen and (min-width:992px) {
     .active-project {
-        height:560px;
+        height:35rem;
+    }
+    .img-row {
+        height:9rem;
     }
 }
+
+.active-project.mpowheard {
+    border-color: #00E2FF;
+}
+.mpowheard a {
+    color:#FF0093;
+}
+.active-project.mpowheard p.lead {
+    background-color: rgba(251,255,4,0.26);
+    padding:0.625rem;
+}
+
 .active-project.mysavei {
     border-color: #A2D039;
 }
+@media screen and (max-width:991px) {
+    .mysavei header {
+        padding-top:1rem;
+    }
+}
+.mysavei a {
+    color:#00B9B1;
+}
 .active-project.mysavei p.lead {
     background-color: rgba(162,208,57,0.26);
-    padding:10px;
+    padding:0.625rem;
+}
+
+.outerbelt a {
+    color:#158B74;
 }
 .active-project.outerbelt p.lead {
     background-color: rgba(112,112,112,0.26);
-    padding:10px;
+    padding:0.625rem;
 }
 .img-href {
     margin: auto 0;
